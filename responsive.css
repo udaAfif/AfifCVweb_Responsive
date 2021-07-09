@@ -1,0 +1,24 @@
+
+
+@media(max-width: 1000px){
+ 
+    .hobi ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Container{
+        margin: 10px;
+    }
+}
+
+@media(max-width: 600px){
+    .box{
+        flex-direction: column;
+    }
+    .hobi ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Container{
+        margin: 10px;
+        grid-template-columns:repeat(1,1fr) ;
+    }
+}
